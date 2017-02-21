@@ -50,6 +50,9 @@ zplug "plugins/git", from:oh-my-zsh
 # Handy command line tools for dealing with json data.
 zplug "plugins/jsontools", from:oh-my-zsh
 
+# Rails
+zplug "plugins/rails", from:oh-my-zsh
+
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
