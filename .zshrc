@@ -47,6 +47,9 @@ zplug "b4b4r07/enhancd", use:init.sh
 # This plugin adds many useful aliases and functions.
 zplug "plugins/git", from:oh-my-zsh
 
+# Handy command line tools for dealing with json data.
+zplug "plugins/jsontools", from:oh-my-zsh
+
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
