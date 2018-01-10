@@ -42,6 +42,7 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search"
 
 # A next-generation cd command with an interactive filter
+# * Needs to install fzy: brew install fzy
 zplug "b4b4r07/enhancd", use:init.sh
 
 # This plugin adds many useful aliases and functions.
