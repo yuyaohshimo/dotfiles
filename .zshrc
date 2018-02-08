@@ -1,21 +1,3 @@
-## RubyMine cannot read zshenv, so I write zshenv here
-## start zshenv
-
-# brew
-export PATH=/usr/local/bin:$PATH
-
-# rbenv
-eval "$(rbenv init -)"
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# zplug
-export ZPLUG_HOME=/usr/local/opt/zplug
-
-## end zshenv
-
 source $ZPLUG_HOME/init.zsh
 
 # enhancd config
