@@ -12,7 +12,7 @@ export NVM_DIR="$HOME/.nvm"
 export ZPLUG_HOME=/usr/local/opt/zplug
 
 # golang
-export GOPATH=$HOME/go
+export GOPATH=$HOME/Documents/go
 export PATH=$PATH:$GOPATH/bin
 
 # Android Studio
